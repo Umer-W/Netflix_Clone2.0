@@ -1,0 +1,29 @@
+@media screen and (min-width:430px) {
+
+    .signUpFooter{
+        color: black;
+        height: 160px;
+        background-color: rgba(239, 239, 247, 0.863);
+        margin: 140px 0px 0px 0px;
+    }
+    .signUpInside{
+        padding: 30px 0px 0px 20px;
+        color: rgba(0, 0, 0, 0.555);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media screen and (max-width:430px) {
+
+    .signUpFooter{
+        color: black;
+        height: 100%;
+        background-color: rgba(239, 239, 247, 0.863);
+        margin: 140px 0px 0px 0px;
+    }
+    .signUpInside{
+        padding: 30px 0px 0px 0px;
+        color: rgba(0, 0, 0, 0.555);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

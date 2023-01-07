@@ -1,0 +1,31 @@
+.pyara{
+    text-align: center;
+}
+.pyaraTwo{
+    text-align: center;
+}
+.parathree{
+    text-align: start;
+    margin: 20px 0px;
+    color: rgba(0, 0, 0, 0.815);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    font-size: 19px;
+
+}
+.paras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.threeParas{
+    width: 230px;
+}
+.signUpForm{
+    
+    justify-content: center;
+}
+.signUpTwo{
+    margin: 90px 0px;
+}

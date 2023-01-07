@@ -1,0 +1,63 @@
+.signUpPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+.signUpForm{
+    padding:20px;
+    display: flex;
+    text-align: start;
+
+    width: 430px;
+    flex-direction: column;
+}
+.paraTwo{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.774);
+    text-align: start;
+
+}
+.para{
+    color: rgba(0, 0, 0, 0.637);
+    margin: 8px 0px;
+    text-align: start;
+
+}
+.formInput{
+    font-size: 18px;
+    padding: 15px 5px;
+    margin: 5px 0px;
+}
+.awen{
+    display: flex;
+    align-items: center;
+}
+#sendEmail{
+    margin: 24px 0px;
+    
+    width: 23px;
+    height: 23px;
+    
+}
+.sendEmailLine{
+    color: rgba(0, 0, 0, 0.719);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+#nextBtn{
+    background-color: rgb(224, 17, 17);
+    border: none;
+    padding: 20px 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 550px;
+    font-size: 22px;
+    
+}
+#nextLink{
+    color: white;
+    text-decoration: none;
+}

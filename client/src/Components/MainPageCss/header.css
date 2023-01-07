@@ -1,0 +1,447 @@
+@media screen and (min-width:1000px) {
+
+    .header{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        background-image:linear-gradient(black,black,rgb(0, 0, 0));
+        position: sticky;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        justify-content: space-between;
+    z-index: 11000;
+        
+    }
+    .oneHeader{
+        display: flex;
+        align-items: center;
+        width: 660px;
+    }
+    .logoMain{
+    margin: 7px 60px;
+    font-size: 37px;
+    color: rgb(224, 24, 24);
+    }
+    .navLinks{
+        display: flex;
+        margin: 20px 0px;
+
+    }
+    .headerLink{
+        color: white;
+        text-decoration: none;
+        margin: 6px;
+    }
+    
+    .twoHeader{
+        display: flex;
+        align-items: center;
+    
+    
+    }
+    .twoLink{
+        color: white;
+        margin:5px 19px;
+        text-decoration: none;
+        font-size: 24px;
+    
+    }
+    
+    .lastLink{
+        margin: 5px 70px 5px 5px;
+    }
+    .logoLink{
+        color: rgb(230, 20, 20);
+        text-decoration: none;
+    }
+    
+    
+    .dropdown{
+        position: absolute;
+        right: 0%;
+        top: 60px;
+        width: 120px;
+        height: 0px;
+        background-color:black ;
+        transition: 0.7s ease-in-out;
+    
+    }
+    .dropdownTwo{
+        position: absolute;
+        top: 60px;
+        width: 120px;
+        right: 0%;
+        height: 150px;
+        background-color:black ;
+        transition: 0.2s;
+    }
+    .dropLink{
+        color: white;
+        text-decoration: none;
+        display: none;
+        margin: 19px 0px;
+        padding: 15px 10px;
+        position: relative;
+    
+    
+    }
+    .dropLinkTwo{
+        color: white;
+        text-decoration: none;
+        margin: 30px 0px;
+        padding: 15px 10px;
+    
+    }
+}
+/* =========================                           MEDIA QUERY                         ============================================
+=======================================================================================================================================
+=======================================================================================================================================
+=======================================================================================================================================
+=======================================================================================================================================
+=======================================================================================================================================
+======================================================================================================================================= */
+
+
+
+
+@media screen and (max-width:1000px) {
+
+
+    .header{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        background-image:linear-gradient(black,black,rgb(0, 0, 0));
+        position: sticky;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        justify-content: space-between;
+        z-index: 11000;
+        
+    }
+    .oneHeader{
+        display: flex;
+        align-items: center;
+        width: 660px;
+    }
+    .logoMain{
+    margin: 7px 10px;
+    font-size: 37px;
+    color: rgb(224, 24, 24);
+    }
+    .navLinks{
+        display: flex;
+        margin: 20px 0px;
+
+    }
+    .headerLink{
+        color: white;
+        text-decoration: none;
+        margin: 6px;
+        font-size: 13px;
+    }
+    
+    .twoHeader{
+        display: flex;
+        align-items: center;
+    
+    
+    }
+    .twoLink{
+        color: white;
+        margin:2px 10px;
+        text-decoration: none;
+        font-size: 16px;
+    
+    }
+    
+    .lastLink{
+        margin: 5px 20px 5px 5px;
+    }
+    .logoLink{
+        color: rgb(230, 20, 20);
+        text-decoration: none;
+    }
+    
+    
+    .dropdown{
+        position: absolute;
+        right: 0%;
+        top: 60px;
+        width: 120px;
+        height: 0px;
+        background-color:black ;
+        transition: 0.7s ease-in-out;
+    
+    }
+    .dropdownTwo{
+        position: absolute;
+        top: 60px;
+        width: 120px;
+        right: 0%;
+        height: 150px;
+        background-color:black ;
+        transition: 0.2s;
+    }
+    .dropLink{
+        color: white;
+        text-decoration: none;
+        display: none;
+        margin: 19px 0px;
+        padding: 15px 10px;
+        position: relative;
+    
+    
+    }
+    .dropLinkTwo{
+        color: white;
+        text-decoration: none;
+        margin: 30px 0px;
+        padding: 15px 10px;
+    
+    }
+
+}
+
+
+/* =========================                           MEDIA QUERY                         ============================================
+=======================================================================================================================================
+=======================================================================================================================================
+=======================================================================================================================================
+=======================================================================================================================================
+=======================================================================================================================================
+======================================================================================================================================= */
+
+
+
+
+@media screen and (max-width:700px) {
+
+
+    .header{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image:linear-gradient(black,black,rgb(0, 0, 0));
+        position: sticky;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        justify-content: space-between;
+        z-index: 11000;
+        
+    }
+    .oneHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        align-items: center;
+        width: 100%;
+    }
+    .logoMain{
+    margin: 7px 10px;
+    font-size: 47px;
+    color: rgb(224, 24, 24);
+    }
+    .navLinks{
+        display: flex;
+        margin: 20px 0px;
+
+    }
+    .headerLink{
+        color: white;
+        text-decoration: none;
+        margin: 14px;
+        font-size: 20px;
+    }
+    
+    .twoHeader{
+        display: flex;
+        align-items: center;
+        margin: 20px 0px;
+    
+    
+    }
+    .twoLink{
+        color: white;
+        margin:2px 10px;
+        text-decoration: none;
+        font-size: 26px;
+    
+    }
+    
+    .lastLink{
+        margin: 5px 20px 5px 5px;
+    }
+    .logoLink{
+        color: rgb(230, 20, 20);
+        text-decoration: none;
+    }
+    
+    
+    .dropdown{
+        position: absolute;
+        right: 0%;
+        top: 60px;
+        width: 120px;
+        height: 0px;
+        background-color:black ;
+        transition: 0.7s ease-in-out;
+    
+    }
+    .dropdownTwo{
+        position: absolute;
+        top: 60px;
+        width: 120px;
+        right: 0%;
+        height: 150px;
+        background-color:black ;
+        transition: 0.2s;
+    }
+    .dropLink{
+        color: white;
+        text-decoration: none;
+        display: none;
+        margin: 19px 0px;
+        padding: 15px 10px;
+        position: relative;
+    
+    
+    }
+    .dropLinkTwo{
+        color: white;
+        text-decoration: none;
+        margin: 30px 0px;
+        padding: 15px 10px;
+    
+    }
+
+}
+
+
+
+
+
+
+/* =========================                           MEDIA QUERY                         ============================================
+=======================================================================================================================================
+=======================================================================================================================================
+=======================================================================================================================================
+=======================================================================================================================================
+=======================================================================================================================================
+======================================================================================================================================= */
+
+
+
+
+@media screen and (max-width:500px) {
+
+
+    .header{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image:linear-gradient(black,black,rgb(0, 0, 0));
+        position: sticky;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        justify-content: space-between;
+        z-index: 11000;
+        
+    }
+    .oneHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        align-items: center;
+        width: 100%;
+    }
+    .logoMain{
+    margin: 7px 10px;
+    font-size: 47px;
+    color: rgb(224, 24, 24);
+    }
+    .navLinks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        margin: 20px 0px;
+
+    }
+    .headerLink{
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 15px;
+    }
+    
+    .twoHeader{
+        display: flex;
+        align-items: center;
+        margin: 20px 0px;
+    
+    
+    }
+    .twoLink{
+        color: white;
+        margin:2px 10px;
+        text-decoration: none;
+        font-size: 18px;
+    
+    }
+    
+    .lastLink{
+        margin: 5px 20px 5px 5px;
+    }
+    .logoLink{
+        color: rgb(230, 20, 20);
+        text-decoration: none;
+    }
+    
+    
+    .dropdown{
+        position: absolute;
+        right: 0%;
+        top: 60px;
+        width: 120px;
+        height: 0px;
+        background-color:black ;
+        transition: 0.7s ease-in-out;
+    
+    }
+    .dropdownTwo{
+        position: absolute;
+        top: 60px;
+        width: 120px;
+        right: 0%;
+        height: 150px;
+        background-color:black ;
+        transition: 0.2s;
+    }
+    .dropLink{
+        color: white;
+        text-decoration: none;
+        display: none;
+        margin: 19px 0px;
+        padding: 15px 10px;
+        position: relative;
+    
+    
+    }
+    .dropLinkTwo{
+        color: white;
+        text-decoration: none;
+        margin: 30px 0px;
+        padding: 15px 10px;
+    
+    }
+
+}

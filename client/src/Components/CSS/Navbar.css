@@ -1,0 +1,98 @@
+@media screen and (min-width:430px) {
+
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 19px 43px;
+        align-items: center;
+
+    }
+
+    .logo {
+        font-size: 40px;
+        color: rgb(230, 9, 9);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .signInBtn {
+        padding: 3px 10px;
+        border: none;
+        background-color: transparent;
+
+
+    }
+
+    .signLink {
+        color: black;
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 550;
+
+    }
+
+    .signLink:hover {
+        color: black;
+        text-decoration: underline;
+        font-size: 19px;
+        font-weight: 550;
+
+    }
+
+    hr {
+        color: rgba(0, 0, 0, 0.253);
+        size: 0.2px;
+        border: 0.2px solid rgba(0, 0, 0, 0.096);
+    }
+}
+
+
+@media screen and (max-width:430px) {
+
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 19px 43px;
+        align-items: center;
+
+    }
+
+    .logo {
+        font-size: 40px;
+        color: rgb(230, 9, 9);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .signInBtn {
+        padding: 3px 10px;
+        border: none;
+        background-color: transparent;
+
+
+    }
+
+    .signLink {
+        color: black;
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 550;
+
+    }
+
+    .signLink:hover {
+        color: black;
+        text-decoration: underline;
+        font-size: 19px;
+        font-weight: 550;
+
+    }
+
+    hr {
+        color: rgba(0, 0, 0, 0.253);
+        size: 0.2px;
+        border: 0.2px solid rgba(0, 0, 0, 0.096);
+    }
+}
